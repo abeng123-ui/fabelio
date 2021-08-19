@@ -19,7 +19,6 @@ class CreateLinksTable extends Migration
             $table->string('product_name')->nullable();
             $table->integer('price_value')->nullable();
             $table->string('price_currency', 20)->nullable();
-            $table->string('currency', 20)->nullable();
             $table->text('description')->nullable();
             $table->timestamps();
         });

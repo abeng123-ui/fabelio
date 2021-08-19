@@ -14,20 +14,20 @@
                         <table style="width:100%" id='bootstrap-data-table-export' class="table table-striped">
                             <tbody>
                                 <tr>
-                                    <td>{{ $data['product_name'] }}</td>
-                                    <td align="right">{{ $data['price'] }}</td>
+                                    <td>{{ $result['product_name'] }}</td>
+                                    <td align="right">{{ $result['price'] }}</td>
                                 </tr>
                                 <tr>
                                     <td colspan="2">
-                                        <img src="{{$data['image']}}">
+                                        <img src="{{$result['image']}}">
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td colspan="2">{{ $data['header'] }}</td>
+                                    <td colspan="2">{{ $result['header'] }}</td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        @foreach($data['header_desc'] as $row)
+                                        @foreach($result['header_desc'] as $row)
                                             {!! $row !!}
                                         @endforeach
 

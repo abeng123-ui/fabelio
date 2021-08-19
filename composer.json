@@ -12,6 +12,7 @@
         "kub-at/php-simple-html-dom-parser": "^1.9",
         "laravel/framework": "5.5.*",
         "laravel/tinker": "~1.0",
+        "league/fractal": "^0.19.2",
         "mpdf/mpdf": "^8.0"
     },
     "require-dev": {
