@@ -20,9 +20,10 @@ class ProductRepository implements ProductInterface
     public function check_url_product($params)
     {
         $cek = Links::where('url', (string) $params['url'])->get();
-        if(count($cek)){
+
+        if(count($cek) > 0){
             return "false";
-        }elseif(filter_var($params['url'], FILTER_VALIDATE_URL)){
+        }elseif(filter_var($params['url'], FILTER_VALIDATE_URL) !== false){
             return "true";
         }else{
             return "false";

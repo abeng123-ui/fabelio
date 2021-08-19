@@ -11,15 +11,4 @@ use Illuminate\Http\Request;
 class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
-
-    public $params;
-    public $request;
-
-    function __construct(Request $request = null)
-    {
-        if(!empty($request)) {
-            $this->params = $request->all();
-            $this->request = $request;
-        }
-    }
 }

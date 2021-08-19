@@ -19,3 +19,6 @@ Route::get('link/list', 'LinkController@link_list')->name('link.list');
 Route::get('link/detail/{id}', 'LinkController@link_detail')->name('link.detail');
 Route::get('check_url', 'LinkController@check_url');
 
+// scheduler update price hourly
+Route::get('update-product-scheduler', 'LinkController@update_product_scheduler');
+
