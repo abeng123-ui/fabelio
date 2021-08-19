@@ -11,13 +11,13 @@ How to run
 - Install XAMPP 7.0.16 version to get all requirement tools in simpliest way, source: https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/7.0.6/
 - Start Apache and MySQL in XAMPP Control Panel
 - Install Composer, source https://getcomposer.org/download/
-- In CMD Terminal, go to XAMPP folder htdocs path and clone this project
+- In CMD Terminal, go to XAMPP htdocs folder path and clone this project
 ```bash
 ACER@DESKTOP-8U67HAK MINGW64 /d/XAMPP/htdocs
 $ git clone https://github.com/abeng123-ui/fabelio
 ```
-- create database on localhost/phpmyadmin or with your DBMS application
-- In the root of folder, you will find file .env-dist, copy, create file .env, and setup your host and database name, example :
+- create a database on localhost/phpmyadmin or with your DBMS application
+- In the root of folder, copy file .env-dist, paste at new file named .env, and setup your host and database name, example :
 ```bash
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -41,6 +41,6 @@ $ php artisan migrate
 ACER@DESKTOP-8U67HAK MINGW64 /d/XAMPP/htdocs/fabelio (master)
 $ vendor/bin/phpunit
 ```
-- Test application from UI, open browser, and write "localhost/fabelio/public"
+- Test application from UI, open browser, and write on address bar "localhost/fabelio/public"
 
 ## If there is any question, please send me an email to akbarsyidiq@gmail.com
