@@ -6,7 +6,7 @@ Project Specification and Requirements
 - Apache
 - Composer
 ---------------
-How to run
+How to run project
 ----
 - Install XAMPP 7.0.16 version to get all requirement tools in simpliest way, source: https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/7.0.6/
 - Start Apache and MySQL in XAMPP Control Panel
@@ -42,5 +42,13 @@ ACER@DESKTOP-8U67HAK MINGW64 /d/XAMPP/htdocs/fabelio (master)
 $ vendor/bin/phpunit
 ```
 - Test application from UI, open browser, and write on address bar "localhost/fabelio/public"
+---------------
+How to use the application
+----
+- In browser, go to localhost/fabelio/public
+- There is 2 menus, Link Submission Page and All Submitted Links
+- Link Submission Page contains url input form, fill with fabelio's product url such as "https://fabelio.com/ip/santiago-mirror?finishing_color=6469", and click SAVE button
+- After click SAVE button you will be redirected to Product Detail Page which contains any product information from url before
+- You can display all saved url in All Submitted Links page
 
 ## If there is any question, please send me an email to akbarsyidiq@gmail.com
