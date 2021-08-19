@@ -50,5 +50,6 @@ How to use the application
 - Link Submission Page contains url input form, fill with fabelio's product url such as "https://fabelio.com/ip/santiago-mirror?finishing_color=6469", and click SAVE button
 - After click SAVE button you will be redirected to Product Detail Page which contains any product information from url before
 - You can display all saved url in All Submitted Links page
+- Scheduler has been applied hourly, so it will updating all submitted link product information from urlt
 
 ## If there is any question, please send me an email to akbarsyidiq@gmail.com
