@@ -42,6 +42,7 @@ ACER@DESKTOP-8U67HAK MINGW64 /d/XAMPP/htdocs/fabelio (master)
 $ vendor/bin/phpunit
 ```
 - Test application from UI, open browser, and write on address bar "localhost/fabelio/public"
+- There is a scheduler to update price hourly, If you want test scheduler locally, at CMD terminal, run command "php artisan update-product-scheduler", and data on All Submitted Links will be updated.
 ---------------
 How to test application in HEROKU
 ----
@@ -51,7 +52,7 @@ How to test application in HEROKU
 - After click SAVE button you will be redirected to Product Detail Page which contains any product information from url before
 - You can display all saved url in All Submitted Links page
 - Scheduler has been applied hourly, so it will updating all submitted link product information from url
-- If you want test scheduler locally, run command "php artisan update-product-scheduler", and data on All Submitted Links will be updated.
+
 ---------------
 How to test application in Heroku
 ----
