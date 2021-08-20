@@ -43,14 +43,18 @@ $ vendor/bin/phpunit
 ```
 - Test application from UI, open browser, and write on address bar "localhost/fabelio/public"
 ---------------
-How to use the application
+How to test application in HEROKU
 ----
-- In browser, go to localhost/fabelio/public
+- In browser, go to http://warm-inlet-99446.herokuapp.com/public/
 - There is 2 menus, Link Submission Page and All Submitted Links
 - Link Submission Page contains url input form, fill with fabelio's product url such as "https://fabelio.com/ip/santiago-mirror?finishing_color=6469", and click SAVE button
 - After click SAVE button you will be redirected to Product Detail Page which contains any product information from url before
 - You can display all saved url in All Submitted Links page
 - Scheduler has been applied hourly, so it will updating all submitted link product information from url
 - If you want test scheduler locally, run command "php artisan update-product-scheduler", and data on All Submitted Links will be updated.
+---------------
+How to test application in Heroku
+----
+
 
 ## If there is any question, please send me an email to akbarsyidiq@gmail.com
